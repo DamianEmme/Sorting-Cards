@@ -27,7 +27,7 @@ btnDraw.addEventListener("click", function(e) {
 });
 
 function generarCarta() {
-  var figuras = ["♦", "♥", "♠", "♣"];
+  var figuras = ["♠", "♣", "♥", "♦"];
   var numeros = [
     "A",
     "2",
@@ -66,7 +66,7 @@ function generarCarta() {
 }
 
 function generarCartas(cantidad) {
-  const figuras = ["♦", "♥", "♠", "♣"];
+  const figuras = ["♠", "♣", "♥", "♦"];
   const numeros = [
     "A",
     "2",
